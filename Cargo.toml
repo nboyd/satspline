@@ -1,0 +1,14 @@
+[package]
+name = "satspline"
+version = "0.1.0"
+authors = ["Nick Boyd <nickboyd@berkeley.edu>"]
+
+# [bin]
+[lib]
+name = "lasso"
+crate-type = ["dylib"]
+[profile.release]
+debug = true
+lto = true
+[dependencies]
+rblas = "*"
