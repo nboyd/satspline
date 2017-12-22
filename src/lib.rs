@@ -1,6 +1,5 @@
 #![allow(non_snake_case)]
 #![allow(unused_must_use)]
-#![feature(plugin)]
 
 extern crate rblas;
 mod nonnan;
